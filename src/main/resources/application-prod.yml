@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  #context-path: /
+
+name: test
+height: 180
+object: "name:${name},height:${height}"
+#
+objs:
+  name: test-prod
+  height: 170
